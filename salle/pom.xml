@@ -17,6 +17,7 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -58,13 +59,13 @@
 			</exclusions>
 		</dependency>
 
-		<!-- spring boot에서 jsp 템플릿이 없어서 추가해줘야함 -->
+		<!-- spring boot?�서 jsp ?�플릿이 ?�어??추�??�줘?�함 -->
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
 		</dependency>
 		
-		<!-- jstl 라이브러리-->
+		<!-- jstl ?�이브러�?->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -84,21 +85,21 @@
 		<version>2.2.2.RELEASE</version>
 		 </dependency>
 
-		<!-- mybatis 추가 -->
+		<!-- mybatis 추�? -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
 			<version>3.5.5</version>
 		</dependency>
 
-		<!-- 메서드 사용을 위한 추가 mybatis dependency -->
+		<!-- 메서???�용???�한 추�? mybatis dependency -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
 			<version>1.3.2</version>
 		</dependency>
 
-		<!-- mybatis starter 의존성 주입 -->
+		<!-- mybatis starter ?�존??주입 -->
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
