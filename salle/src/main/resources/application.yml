@@ -18,9 +18,16 @@ spring:
     view:
       prefix: /WEB-INF/view/
       suffix: .jsp
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+
 cloud:
   aws:
     s3:
       bucket: sallestorage
-
+      
+  
 debug: true
